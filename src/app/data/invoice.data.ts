@@ -1,6 +1,6 @@
 import { Invoice } from "../models/invoice";
 
-export const invoiceData: Invoice = {
+export const invoiceData: any = {
   id:1,
   name: 'Componentes de pc',
   client:{
@@ -25,13 +25,13 @@ export const invoiceData: Invoice = {
       quantity:1,
     },
     {
-      id:1,
+      id:2,
       product:'Cosair teclado mecanico',
       price:99,
       quantity:2,
     },
     {
-      id:1,
+      id:3,
       product:'Monitor asus',
       price:899,
       quantity:3,
