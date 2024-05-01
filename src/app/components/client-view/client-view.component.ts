@@ -5,8 +5,7 @@ import { Client } from '../../models/client';
   selector: 'client-view',
   standalone: true,
   imports: [],
-  templateUrl: './client-view.component.html',
-  styleUrl: './client-view.component.css'
+  templateUrl: './client-view.component.html'
 })
 export class ClientViewComponent {
 
