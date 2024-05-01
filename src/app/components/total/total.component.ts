@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-total',
+  selector: 'total',
   standalone: true,
   imports: [],
-  templateUrl: './total.component.html',
-  styleUrl: './total.component.css'
+  templateUrl: './total.component.html'
 })
 export class TotalComponent {
+  @Input() total: number = 0;
 
 }
